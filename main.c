@@ -1,13 +1,6 @@
-int main()
-{
-  char word[]="Hello School";
-  int word_count;
-  for (word_count = 0; word_count < 32; word_count++)
-  {
-  	printf("\n");
-    printf("------\n");
-    printf(word);
-  }
-  printf("\n------");
-  return 0;
+int main() {
+    for (int i = 0; i < 32; i++) {  // Change 10 to 32
+        printf("Hello School\n");   // Add "Hello "
+    }
+    return 0;
 }
